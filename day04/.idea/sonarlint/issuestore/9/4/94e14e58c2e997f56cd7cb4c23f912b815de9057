@@ -1,0 +1,14 @@
+
+Q
+java:S1119";Refactor the code to remove this label and the need for it.(©Åş™
+n
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(šÕöÚ8‹š¬ƒé0
+N	java:S106"9Replace this use of System.out or System.err by a logger.(šÕöÚ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÚÅª 
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8ÿ˜­ƒé0
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8Ö®¬ƒé0
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Ø®¬ƒé0
+Q
+java:S1128"4Remove this unused import 'java.util.stream.Stream'.(ó÷”8Ù®¬ƒé0

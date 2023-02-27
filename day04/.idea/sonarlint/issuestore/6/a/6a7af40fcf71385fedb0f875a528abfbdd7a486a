@@ -1,9 +1,0 @@
-
-x
-java:S3065<"bChange these chained min/max methods invocations, as final results will always be the lower bound.(·ËÑÈ
-h
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Çµí‘
-S	java:S106"9Replace this use of System.out or System.err by a logger.(µ‡õÿÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Ì°û°
-S	java:S1063"9Replace this use of System.out or System.err by a logger.(µ‡õÿÿÿÿÿ
-N	java:S1064"9Replace this use of System.out or System.err by a logger.(Ì°û°
