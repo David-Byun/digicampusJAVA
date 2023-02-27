@@ -1,0 +1,15 @@
+
+c
+java:S21840"ACast one of the operands of this division operation to a "float".(¡Ä‚èúÿÿÿÿ8Øú±è0
+b
+java:S21840"@Cast one of the operands of this integer division to a "double".(¡Ä‚èúÿÿÿÿ8Ùú±è0
+8
+java:S3626"Remove this redundant jump.(ûÁİ…8ìä©è0
+N	java:S106"9Replace this use of System.out or System.err by a logger.(÷…’î
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(­·Ğøÿÿÿÿ8õú±è0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Í±‡Şıÿÿÿÿ8õú±è0
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(ïÍù€ùÿÿÿÿ8õú±è0
+U	java:S106D"9Replace this use of System.out or System.err by a logger.(Ùø€÷8öú±è0
+U	java:S106E"9Replace this use of System.out or System.err by a logger.(ÍÛõ8÷ú±è0
+Z	java:S106F"9Replace this use of System.out or System.err by a logger.(±ŸÉƒøÿÿÿÿ8÷ú±è0
+U	java:S106I"9Replace this use of System.out or System.err by a logger.(ìÕì8÷ú±è0

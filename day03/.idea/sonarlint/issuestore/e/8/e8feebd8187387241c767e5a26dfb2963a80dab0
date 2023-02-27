@@ -1,0 +1,21 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(µš‹Ëøÿÿÿÿ
+P
+java:S3518%":Make sure "cnt2" can't be zero before doing this division.(—»”
+W
+java:S35185":Make sure "cnt3" can't be zero before doing this division.(£İ²Ò8·µ“”è0
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ø‰”„
+N	java:S106"9Replace this use of System.out or System.err by a logger.(°Š£
+N	java:S106"9Replace this use of System.out or System.err by a logger.(‘¬ò÷
+M	java:S106&"9Replace this use of System.out or System.err by a logger.(¡Â­z
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(Å’ÈÒ
+S	java:S106("9Replace this use of System.out or System.err by a logger.(ÛÉÓóùÿÿÿÿ
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(İÀ×›
+U	java:S1067"9Replace this use of System.out or System.err by a logger.(úãÅ¦8°ÖĞ”è0
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(›ğ¨‘ÿÿÿÿÿ8¯Ñ”è0
+n
+java:S3457<"Q%n should be used in place of \n to produce the platform-specific line separator.(šÕöÚ8¤ÑÓ”è0
+U	java:S106<"9Replace this use of System.out or System.err by a logger.(šÕöÚ8¤ÑÓ”è0
+n
+java:S3457>"Q%n should be used in place of \n to produce the platform-specific line separator.(ÈÙüÕ8¥ÑÓ”è0
+U	java:S106>"9Replace this use of System.out or System.err by a logger.(ÈÙüÕ8¥ÑÓ”è0
