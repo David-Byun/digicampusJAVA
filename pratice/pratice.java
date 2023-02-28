@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class pratice {
+public class pratice {
+    public static void main(String[] args) {
+
+    }
 }
