@@ -1,6 +1,7 @@
 package oop;
 
 public class Car {
+
     // 속성
     private String name;
     private String color;
