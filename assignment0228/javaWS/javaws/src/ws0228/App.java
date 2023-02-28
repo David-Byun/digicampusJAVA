@@ -13,7 +13,7 @@ public class App {
 		name[1] = "장은정";
 		name[2] = "변다윗";
 		name[3] = "문대호";
-		name[4] = "이진만";
+		name[4] = "이전만";
 		
 		String mName[] = new String[5];
 		mName[0] = "하니";
