@@ -5,7 +5,7 @@ public class MakeAccountNumber {
         String accNum = "";
         double value = Math.random();
         Calendar cal = Calendar.getInstance();
-        accNum = "" + cal.get(Calendar.YEAR) + (cal.get(Calendar.MONTH) + 1) + cal.get(Calendar.DAY_OF_MONTH) + cal.get(Calendar.MILLISECOND) +  (int)(Math.random()*10 + 1);
+        accNum = "" + cal.get(Calendar.YEAR) + (cal.get(Calendar.MONTH) + 1) + cal.get(Calendar.DAY_OF_YEAR) + cal.get(Calendar.MILLISECOND) +  (int)(Math.random()*1000 + 1);
         return accNum;
     }
 }
