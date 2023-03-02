@@ -1,5 +1,7 @@
+package overloading;
+
 public class Day05 {
     public static void main(String[] args) {
-        System.out.println("확인");
+        Employee e = new Employee();
     }
 }

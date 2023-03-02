@@ -6,17 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="31c1b708-d936-4077-aeab-50339dc39862" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../assignment0228/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aggregation/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aggregation/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aggregation/Human.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bank/Account.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bank/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/MakeAccountNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/board/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/board/DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/board/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/overloading/App.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/overloading/Calculator.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/overloading/Day05.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/overloading/Employee.java" afterDir="false" />
@@ -75,7 +66,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/david/digicampusJAVA/day05",
     "node.js.detected.package.eslint": "true",
@@ -86,62 +76,6 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.board.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bank.App" />
-      <module name="day05" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="aggregation.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aggregation.App" />
-      <module name="day05" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aggregation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="board.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="board.App" />
-      <module name="day05" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="board.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="overloading.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="overloading.App" />
-      <module name="day05" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.board.App" />
-        <item itemvalue="Application.aggregation.App" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.overloading.App" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -150,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677715921859</updated>
-      <workItem from="1677715923211" duration="17554000" />
+      <workItem from="1677715923211" duration="9486000" />
     </task>
     <servers />
   </component>
