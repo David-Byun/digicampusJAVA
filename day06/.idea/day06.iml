@@ -4,8 +4,9 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/Caculator" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Inheritance" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/entity" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Inheritance" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Inheritance2" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/entity" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

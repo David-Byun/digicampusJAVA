@@ -27,6 +27,7 @@ public class Sales extends Employee {
         return result;
     }
 
+    @Override
     public double getIncentive() {
         double result = 0.0;
         result = getSalary() * this.rate;
