@@ -1,11 +1,11 @@
 import java.io.File;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-public class App2 {
+public class App1 {
+
     public static void main(String[] args) {
         String[] nameArr = {"IronMan", "Captain", "Hulk", "Thor"};
         List<String> nameList = Arrays.asList(nameArr);
@@ -37,6 +37,38 @@ public class App2 {
         List<String> list = Arrays.asList("Java", "Scala", "Groovy");
         list.stream().sorted().forEach(System.out::println);
         list.stream().sorted(Comparator.reverseOrder()).forEach(System.out::println);
+
+        // max / min / Avg -> Optional로 값 반환(비어있을 경우)
+        OptionalInt min = IntStream.of(1, 3, 5, 7, 9).min();
+        System.out.println(min.getAsInt());
+
+        int max = IntStream.of(1, 3, 5, 7, 9).max().orElse(0);
+        IntStream.of(1,3,5,7,9).average().ifPresent(System.out::println);
+        
+        // sum / count -> 0으로 반환
+        long count = IntStream.of(1, 3, 5, 7, 9).count();
+        long sum = IntStream.of(1, 3, 5, 7, 9).sum();
+        System.out.println("count = " + count);
+        System.out.println("sum = " + sum);
+
+        //Stream의 요소들을 List, Set, Map 다른 종류 결과로 수집하고 싶은 경우 Collect 함수 이용
+        List<Product> productList = Arrays.asList(
+                new Product(23, "potato"),
+                new Product(14, "orange"),
+                new Product(13, "leomn")
+        );
+
+        // Stream 작업 결과를 List로 반환
+        productList.stream().map(Product::getName).collect(Collectors.toList()).forEach(System.out::println);
+
+        
+        // anyMatch 1개 요소라도 해당 조건을 만족하는가, allMatch 모든 요소가 해당 조건을 만족하는가
+        List<String> names = Arrays.asList("Eric", "Elena", "Java");
+        boolean a = names.stream().anyMatch(name -> name.contains("a"));
+        System.out.println("a = " + a);
+
+        boolean b = names.stream().allMatch(name -> name.length() > 3);
+        System.out.println("b = " + b);
 
     }
 }
