@@ -17,10 +17,11 @@ public class App {
         member1.deleteContent(1);
         member1.deleteFriend(1);
 
-
         System.out.println(member1);
         System.out.println(member1.countContents());
         System.out.println(member1.countFriends());
         System.out.println("============================================================");
+
+
     }
 }
