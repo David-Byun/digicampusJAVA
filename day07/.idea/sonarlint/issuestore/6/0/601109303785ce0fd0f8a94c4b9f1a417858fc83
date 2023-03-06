@@ -1,0 +1,12 @@
+
+n
+java:S1192"LDefine a constant instead of duplicating this literal "Input ID..." 3 times.(Ëë—½ÿÿÿÿÿ8™Øì¨ë0
+S	java:S106"9Replace this use of System.out or System.err by a logger.(„‘®Óşÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¿ÅÙ•
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ëë—½ÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ãÎıî
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¼¹”ûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ëë—½ÿÿÿÿÿ
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(Ëë—½ÿÿÿÿÿ8¸Øì¨ë0
+U	java:S106$"9Replace this use of System.out or System.err by a logger.(ãÎıî8¹Øì¨ë0
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(¼¹”ûÿÿÿÿ8ºØì¨ë0

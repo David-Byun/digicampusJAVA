@@ -1,0 +1,31 @@
+
+E
+java:S1481"/Remove this unused "nameStream" local variable.(â­«
+K
+java:S1481"0Remove this unused "arrayStream" local variable.(¹©È¯ıÿÿÿÿ
+?
+java:S2201")The return value of "count" must be used.(Ù Ëû
+B
+java:S1481",Remove this unused "stream1" local variable.(ÿñ§¦
+S
+java:S3878"8Remove this array creation and simply pass the elements.(›È©Ïşÿÿÿÿ
+G
+java:S1481",Remove this unused "stream2" local variable.(›È©Ïşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Åú¶îøÿÿÿÿ
+[
+java:S1612 "@Replace this lambda with method reference 'String::toUpperCase'.(ß¾¸ıÿÿÿÿ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(ß¾¸ıÿÿÿÿ
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(í÷¤¸ÿÿÿÿÿ
+S	java:S106("9Replace this use of System.out or System.err by a logger.(œ¨èÿÿÿÿÿ
+M	java:S106)"9Replace this use of System.out or System.err by a logger.(Ø“€F
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(òıÂøÿÿÿÿ
+C
+java:S1481/"(Remove this unused "max" local variable.(“Úš–øÿÿÿÿ
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(’É‘
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(‹Ê–ùÿÿÿÿ
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(…»Ã‹üÿÿÿÿ
+h
+java:S6204@"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ˆ»©½
+N	java:S106@"9Replace this use of System.out or System.err by a logger.(ˆ»©½
+S	java:S106F"9Replace this use of System.out or System.err by a logger.(ŞªìÈÿÿÿÿÿ
+N	java:S106I"9Replace this use of System.out or System.err by a logger.(‘ÙëÚ
