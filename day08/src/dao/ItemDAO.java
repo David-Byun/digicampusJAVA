@@ -7,7 +7,9 @@ public class ItemDAO implements DAO<Integer,ItemDTO> {
 
     @Override
     public void insert(ItemDTO itemDTO) {
+        connect();
         System.out.println("등록");
+        disconnect();
     }
 
     @Override
@@ -19,4 +21,6 @@ public class ItemDAO implements DAO<Integer,ItemDTO> {
     public void delete(Integer integer) {
         System.out.println("삭제");
     }
+
+
 }

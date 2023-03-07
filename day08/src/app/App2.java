@@ -1,19 +1,20 @@
 package app;
 
 import dto.ItemDTO;
-import dto.UserDTO;
+import frame.SearchService;
 import frame.Service;
 import service.ItemService;
-import service.UserService;
 
 import java.util.Scanner;
 
 public class App2 {
     public static void main(String[] args) {
         Service<Integer, ItemDTO> service = new ItemService();
+        SearchService search = new ItemService();
+
         Scanner sc = new Scanner(System.in);
         while (true) {
-            System.out.println("Input command(q, i, d, u)");
+            System.out.println("Input command(q, i, d, u, s)");
             String cmd = sc.next();
 
             if (cmd.equals("q")) {
@@ -34,7 +35,10 @@ public class App2 {
                 ItemDTO item = new ItemDTO(id, name, price, qt);
                 service.register(item);
 
-            } else if (cmd.equals("d")) {
+            } else if(cmd.equals("s")){
+                search.search();
+            }
+            else if (cmd.equals("d")) {
                 System.out.println("Input ID...");
                 try {
                     int id = Integer.parseInt(sc.next());
