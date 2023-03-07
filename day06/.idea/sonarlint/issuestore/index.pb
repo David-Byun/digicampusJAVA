@@ -15,3 +15,13 @@ F
 src/entity/Member.java,a/9/a9a43723d142a064cfd9d9d7eb56e7d136a9dca1
 F
 src/entity/Friend.java,7/b/7bf8c44aa3108f6cccb3c2c20b2747a19c09e04f
+C
+src/entity/App.java,7/e/7ef735c9a6c9df95d77f1b0da71415bbcaf74b3c
+I
+src/Inheritance/App3.java,6/f/6fdd0b173496d234830d2cbf192e43e0c0a911b2
+J
+src/Inheritance/Sales.java,f/7/f72daf0c3be5d96e17649d709c77e6b18e6b344a
+M
+src/Inheritance/Employee.java,9/d/9d71b94707bf90f7159737c86e8a04a6c249d0ac
+I
+src/Inheritance2/App.java,c/3/c39eaa8421380801591de9e7dda8f5eed34849da

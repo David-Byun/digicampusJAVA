@@ -1,0 +1,15 @@
+
+n
+java:S1192 "LDefine a constant instead of duplicating this literal "Input ID..." 3 times.(Ëë—½ÿÿÿÿÿ8ê¼¬ë0
+I
+java:S1481",Remove this unused "account" local variable.(£±Ş8«¾¬ë0
+]	java:S125"<This block of commented-out lines of code should be removed.(ĞòŠàşÿÿÿÿ8¬¾¬ë0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(„‘®Óşÿÿÿÿ8¶¾¬ë0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¿ÅÙ•8¹¾¬ë0
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(Ëë—½ÿÿÿÿÿ8»¾¬ë0
+U	java:S106""9Replace this use of System.out or System.err by a logger.(ãÎıî8¼¾¬ë0
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(¼¹”ûÿÿÿÿ8¾¾¬ë0
+Z	java:S106,"9Replace this use of System.out or System.err by a logger.(Ëë—½ÿÿÿÿÿ8Á¾¬ë0
+Z	java:S1062"9Replace this use of System.out or System.err by a logger.(Ëë—½ÿÿÿÿÿ8Å¾¬ë0
+U	java:S1064"9Replace this use of System.out or System.err by a logger.(ãÎıî8Æ¾¬ë0
+Z	java:S1066"9Replace this use of System.out or System.err by a logger.(¼¹”ûÿÿÿÿ8Ç¾¬ë0

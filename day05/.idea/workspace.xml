@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31c1b708-d936-4077-aeab-50339dc39862" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../assignment0228/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aggregation/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aggregation/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aggregation/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank/MakeAccountNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/board/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/board/DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/board/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/overloading/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/overloading/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/overloading/Day05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/overloading/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day05.java" beforeDir="false" />
-    </list>
+    <list default="true" id="31c1b708-d936-4077-aeab-50339dc39862" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,12 +59,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/david/digicampusJAVA/day05",
+    "last_opened_file_path": "/Users/david/lectureJAVA/digicampusJAVA/day05",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -151,6 +136,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677715921859</updated>
       <workItem from="1677715923211" duration="17554000" />
+      <workItem from="1677800456229" duration="46000" />
     </task>
     <servers />
   </component>
