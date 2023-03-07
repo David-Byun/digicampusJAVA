@@ -1,0 +1,11 @@
+
+R
+java:S4973"<Strings and Boxed types should be compared using "equals()".(½óŞÖ
+T
+java:S3518"9Make sure "cnt" can't be zero before doing this division.(£–éìÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ñ·éÍşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¤ßÈ…øÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(æ¡ÿ­
+N	java:S106"9Replace this use of System.out or System.err by a logger.(™ŸÚ•
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¡Ğùùÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(£–éìÿÿÿÿÿ
