@@ -1,0 +1,23 @@
+
+n
+java:S1192"LDefine a constant instead of duplicating this literal "Input ID..." 3 times.(Ëë—½ÿÿÿÿÿ8ò‘Üøë0
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Çµí‘8¤“Üøë0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ì·ĞÛşÿÿÿÿ8ª“Üøë0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¿ÅÙ•8«“Üøë0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ëë—½ÿÿÿÿÿ8«“Üøë0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÚŠ€•8¬“Üøë0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(òºÔ8¬“Üøë0
+T	java:S106 "9Replace this use of System.out or System.err by a logger.(§ºŸV8¬“Üøë0
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8­“Üøë0
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(æØàÚ8®“Üøë0
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(Ëë—½ÿÿÿÿÿ8®“Üøë0
+T	java:S1066"9Replace this use of System.out or System.err by a logger.(ìß;8¯“Üøë0
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8°“Üøë0
+U	java:S1069"9Replace this use of System.out or System.err by a logger.(æØàÚ8°“Üøë0
+Z	java:S106>"9Replace this use of System.out or System.err by a logger.(Ëë—½ÿÿÿÿÿ8±“Üøë0
+U	java:S106@"9Replace this use of System.out or System.err by a logger.(ÚŠ€•8±“Üøë0
+U	java:S106B"9Replace this use of System.out or System.err by a logger.(òºÔ8²“Üøë0
+T	java:S106D"9Replace this use of System.out or System.err by a logger.(§ºŸV8²“Üøë0
+Z	java:S106L"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8ê€İøë0
+U	java:S106M"9Replace this use of System.out or System.err by a logger.(æØàÚ8ò¢İøë0

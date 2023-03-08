@@ -11,7 +11,7 @@ public class MakeMessage extends RuntimeException {
                 result = "에러가 발생했습니다. 내용을 확인해보세요.";
                 break;
             case "EX0001" :
-                result = "에러 1이 발생하였습니다.";
+                result = "확인된 에러를 조치하시고 다시 이용해주세요.";
                 break;
             default:
                 result = "에러가 발생하였습니다. 고객센터로 문의해주세요";
