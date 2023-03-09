@@ -21,8 +21,10 @@ public class Lotto {
             }
 
         System.out.println("winningNum = " + winningNum);
-        prizeMoney = r.nextInt(20000000) + 1;
-        System.out.println("prizeMoney = " + prizeMoney);
+        int min = 0;
+        int max = 2000000000;
+        int prizeMoney = r.nextInt(max - min) + min;
+        System.out.printf("prizeMoney = %s \n",prizeMoney);
     }
 
     public double checkRanking(ArrayList<Integer> myNum) {

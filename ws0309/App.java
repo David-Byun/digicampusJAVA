@@ -19,10 +19,9 @@ public class App {
                 return;
             }
             lottoNum.add(num);
-
         }
         lotto.checkRanking(lottoNum);
-        System.out.println();
+
         sc.close();
         //숫자 입력하면 Lotto 에서 입력받음(리스트) 3개 맞으면 1등 2개 맞으면 2등 1개 맞으면 3등(6숫자 ?)
         //등수가 return
