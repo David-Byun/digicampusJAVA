@@ -3,7 +3,7 @@ package com.kbstar.dto;
 public class TransactionDTO {
     private String date;
     private String accNo;
-    private double balance;
+    private int balance;
     private String type; // I / O
     private String desc;
     private String bank;
@@ -11,13 +11,21 @@ public class TransactionDTO {
     public TransactionDTO() {
     }
 
-    public TransactionDTO(String date, String accNo, double balance, String type, String desc, String bank) {
+    public TransactionDTO(String date, String accNo, int balance, String type, String desc, String bank) {
         this.date = date;
         this.accNo = accNo;
         this.balance = balance;
         this.type = type;
         this.desc = desc;
         this.bank = bank;
+    }
+
+    public TransactionDTO(String accNo, String date, int balance, String type, String desc) {
+        this.date = date;
+        this.accNo = accNo;
+        this.balance = balance;
+        this.type = type;
+        this.desc = desc;
     }
 
     public String getDate() {
@@ -40,7 +48,7 @@ public class TransactionDTO {
         return balance;
     }
 
-    public void setBalance(double balance) {
+    public void setBalance(int balance) {
         this.balance = balance;
     }
 
