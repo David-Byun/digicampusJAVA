@@ -33,3 +33,15 @@ E
 bank/DAO/UserDAO.java,b/8/b89e86af7b9997c42f1066f3e1a49504fb1ce807
 E
 bank/DAO/ItemDAO.java,4/3/432df831183b112d4cb64927ef99d30b9bcda2d7
+C
+list/ListTest1.java,5/2/529cbddd4f0a11cc242751a1ee2e5ace88f94828
+F
+list/map/MapTest3.java,6/f/6f7be768481f68437bf8479e06c530cd022b5e65
+F
+list/map/MapTest1.java,4/0/408bbd452f1ea996c1ee53e59c0be483bbe287d1
+F
+list/set/SetTest1.java,0/4/04a623dea5a2021be47e6b0ec3a9b6e7e0d4ac30
+F
+list/map/MapTest2.java,8/6/8671b144b95a259e82b50393d47c29b0131d1ac8
+C
+list/ListTest2.java,0/8/085a9790af5a9c5f4f8522959e2bc85223600d73

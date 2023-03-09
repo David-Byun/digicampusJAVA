@@ -1,0 +1,19 @@
+
+z
+java:S1104"XMake registerMsg1 a static final constant or non-public and provide accessors if needed.(§¢ÒÅøÿÿÿÿ8Åß²¡ì0
+u
+java:S1104"XMake registerMsg2 a static final constant or non-public and provide accessors if needed.(ûÓÒ˜8ªŠ³¡ì0
+s
+java:S1104"VMake removeMsg1 a static final constant or non-public and provide accessors if needed.(Íş¹™8šŠ©¥ì0
+x
+java:S1104"VMake removeMsg2 a static final constant or non-public and provide accessors if needed.(ê´Çãşÿÿÿÿ8ß×©¥ì0
+T
+java:S1444"2Make this "public static registerMsg1" field final(§¢ÒÅøÿÿÿÿ8Çß²¡ì0
+O
+java:S1444"2Make this "public static registerMsg2" field final(ûÓÒ˜8­Š³¡ì0
+M
+java:S1444"0Make this "public static removeMsg1" field final(Íş¹™8Š©¥ì0
+R
+java:S1444"0Make this "public static removeMsg2" field final(ê´Çãşÿÿÿÿ8å×©¥ì0
+\
+java:S1118":Add a private constructor to hide the implicit public one.(úÇƒÑıÿÿÿÿ8Ìß²¡ì0

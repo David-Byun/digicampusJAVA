@@ -1,0 +1,15 @@
+
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(½Û‘÷ùÿÿÿÿ
+`	java:S112*"FDefine and throw a dedicated exception instead of using a generic one.(ŒÓ¶½üÿÿÿÿ
+b	java:S1125"FDefine and throw a dedicated exception instead of using a generic one.(é×‚„8¡…æ©ì0
+b	java:S112?"FDefine and throw a dedicated exception instead of using a generic one.(ÆŠïÙ8”¸é©ì0
+}
+java:S14882"[Immediately return this expression instead of assigning it to the temporary variable "obj".(¸‡µ¨úÿÿÿÿ8…„ì©ì0
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(ñÉ¤Áýÿÿÿÿ8—Ûæ©ì0
+S
+java:S1128"6Remove this unused import 'com.kbstar.dao.AccountDAO'.(êœºœ8çÊƒªì0
+S
+java:S1128"6Remove this unused import 'com.kbstar.dto.AccountDTO'.(”ðè–8çÊƒªì0
+_
+java:S1128
+"=Remove this unused import 'com.kbstar.noti.NotificationImpl'.(èìŽÚøÿÿÿÿ8çÊƒªì0

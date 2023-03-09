@@ -1,0 +1,11 @@
+
+q
+java:S1104"OMake cnt a static final constant or non-public and provide accessors if needed.(Ε‹Άκώÿÿÿÿ8έ½©μ0
+l
+java:S1104"PMake cnt2 a static final constant or non-public and provide accessors if needed.(ωF8ί½©μ0
+K
+java:S1444")Make this "public static cnt" field final(Ε‹Άκώÿÿÿÿ8ΰ½©μ0
+F
+java:S1444"*Make this "public static cnt2" field final(ωF8β½©μ0
+U
+java:S1118":Add a private constructor to hide the implicit public one.(•Χ†Υϊÿÿÿÿ
