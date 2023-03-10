@@ -1,13 +1,12 @@
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Random;
-import java.util.Set;
 
 public class Lotto {
 
     private HashSet<Integer> winningNum = new HashSet<>();
     private double prizeMoney;
-
     Random r = new Random();
     public Lotto() {
         makeWinningNumberMoney();
@@ -19,12 +18,7 @@ public class Lotto {
             while(winningNum.size() < 3){
                 winningNum.add(r.nextInt(25) + 1);
             }
-
-        System.out.println("winningNum = " + winningNum);
-        int min = 0;
-        int max = 2000000000;
-        int prizeMoney = r.nextInt(max - min) + min;
-        System.out.printf("prizeMoney = %s \n",prizeMoney);
+        prizeMoney = r.nextInt(2000000000)+1;
     }
 
     public double checkRanking(ArrayList<Integer> myNum) {
@@ -45,20 +39,19 @@ public class Lotto {
     public double prizeMoney(int grade) {
         switch(grade) {
             case 1:
-                this.prizeMoney = prizeMoney * 0.5;
+                prizeMoney = prizeMoney * 0.5;
                 break;
             case 2:
-                this.prizeMoney = prizeMoney * 0.3;
+                prizeMoney = prizeMoney * 0.3;
                 break;
             case 3:
-                this.prizeMoney = prizeMoney * 0.2;
+                prizeMoney = prizeMoney * 0.2;
                 break;
             default :
-                this.prizeMoney = 0;
+                prizeMoney = 0;
                 break;
         }
-        System.out.println(grade + "등 /" + " 당첨금 : " + prizeMoney + "원");
+        System.out.println(grade + "등 /" + " 당첨금 : " + new BigDecimal(Math.floor(prizeMoney)).toString() + "원");
         return prizeMoney;
     }
-
 }
