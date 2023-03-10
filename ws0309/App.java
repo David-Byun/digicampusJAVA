@@ -18,6 +18,10 @@ public class App {
                 sc.close();
                 return;
             }
+            if (lottoNum.contains(num)) {
+                System.out.println("중복된 숫자가 있어요 다시 입력해주세요");
+                num = Integer.parseInt(sc.next());
+            }
             lottoNum.add(num);
         }
         lotto.checkRanking(lottoNum);

@@ -14,10 +14,8 @@ public class Lotto {
 
     //당첨번호 1~25까지의 숫자 중 3개를 선정
     public void makeWinningNumberMoney() {
-
-            while(winningNum.size() < 3){
-                winningNum.add(r.nextInt(25) + 1);
-            }
+        while(winningNum.size() < 3){
+            winningNum.add(r.nextInt(25) + 1);}
         prizeMoney = r.nextInt(2000000000)+1;
     }
 
