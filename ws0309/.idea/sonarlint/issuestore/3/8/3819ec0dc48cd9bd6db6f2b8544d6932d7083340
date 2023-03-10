@@ -1,0 +1,10 @@
+
+Ç
+java:S1319"eThe type of "myNum" should be an interface such as "List" rather than the implementation "ArrayList".(çÅ¡≠8∫†â«Ï0
+^
+java:S4973"<Strings and Boxed types should be compared using "equals()".(’¬ á˘ˇˇˇˇ8º†â«Ï0
+_
+java:S2184"BCast one of the operands of this addition operation to a "double".(´∏ØÊ8æ†â«Ï0
+U	java:S1064"9Replace this use of System.out or System.err by a logger.(í›Ó°8€†â«Ï0
+>
+java:S21114"!Use "BigDecimal.valueOf" instead.(í›Ó°8€†â«Ï0
