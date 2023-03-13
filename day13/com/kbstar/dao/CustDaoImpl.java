@@ -103,7 +103,6 @@ public class CustDaoImpl implements DAO<String, String, Cust> {
                 name = rset.getString("name");
                 age = rset.getInt("age");
                 int result = pstmt.executeUpdate();
-                System.out.println(result);
                 if (result == 0) {
                     throw new Exception("조회 오류");
                 }

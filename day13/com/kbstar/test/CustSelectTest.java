@@ -9,7 +9,7 @@ public class CustSelectTest {
         CRUDService<String, Cust> crudService = new CustCRUDServiceImpl();
         Cust findId;
         try {
-            findId = crudService.get("id06");
+            findId = crudService.get("id0100");
             System.out.println(findId.toString());
             System.out.println("불러오기 성공!");
         } catch (Exception e) {

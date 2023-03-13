@@ -69,9 +69,8 @@ public class CustCRUDServiceImpl implements CRUDService<String, Cust>{
         Cust cust = null;
         try {
             cust = dao.select(s);
-
         } catch (Exception e) {
-            System.out.println("요청하신 고객을 찾을 수 없어요!");
+            throw new Exception("요청하신 고객을 찾을 수 없어요!");
         }
         return cust;
     }
