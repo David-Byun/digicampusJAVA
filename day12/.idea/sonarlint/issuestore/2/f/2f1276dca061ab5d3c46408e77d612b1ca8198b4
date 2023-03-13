@@ -1,0 +1,11 @@
+
+b	java:S112&"FDefine and throw a dedicated exception instead of using a generic one.(¡×å8Ö´¢Äí0
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Àœ˜8Ø´¢Äí0
+v
+java:S22932"YReplace the type specification in this constructor call with the diamond operator ("<>").(…ÈÍÄ8Ø´¢Äí0
+]	java:S125-"<This block of commented-out lines of code should be removed.(ÆË „ûÿÿÿÿ8ã´¢Äí0
+H
+java:S1168@"+Return an empty collection instead of null.(¥¹ï8å´¢Äí0
+T
+java:S1135?"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8å´¢Äí0

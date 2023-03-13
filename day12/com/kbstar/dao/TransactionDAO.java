@@ -1,11 +1,14 @@
 package com.kbstar.dao;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+
 import com.kbstar.dto.TransactionDTO;
 import com.kbstar.frame.DAO;
 
-import java.util.*;
-
-public class TransactionDAO implements DAO<String, TransactionDTO> {
+public class TransactionDAO implements DAO<String, TransactionDTO>{
 
     HashMap<String, TransactionDTO> db;
 
@@ -14,69 +17,46 @@ public class TransactionDAO implements DAO<String, TransactionDTO> {
     }
 
     @Override
-    public void insert(TransactionDTO transactionDTO) throws Exception {
-        try {
-            db.put(transactionDTO.getAccNo(), transactionDTO);
-        } catch (Exception e) {
-            throw new Exception("DB PUT ERROR!");
-        }
+    public void insert(TransactionDTO v) throws Exception {
+        db.put(v.getDate(), v);
+
     }
 
     @Override
     public void delete(String k) throws Exception {
-        try {
-            if (db.get(k) == null) {
-                throw new Exception("DB NOT FOUND ERROR!");
-            }
-            db.remove(k);
-        } catch (Exception e) {
-            throw new Exception("DB DELETE ERROR!");
-        }
+        // TODO Auto-generated method stub
+
     }
 
     @Override
-    public void update(TransactionDTO transactionDTO) throws Exception {
-        try {
-            db.put(transactionDTO.getAccNo(), transactionDTO);
-        } catch (Exception e) {
-            throw new Exception("DB UPDATE ERROR!");
-        }
+    public void update(TransactionDTO v) throws Exception {
+        // TODO Auto-generated method stub
+
     }
 
     @Override
     public TransactionDTO select(String k) throws Exception {
-        try {
-            if (db.get(k) == null) {
-                throw new Exception("DB GET ERROR!");
-            }
-            return db.get(k);
-        } catch (Exception e) {
-            throw new Exception("DB GET ERROR!");
-        }
-
+        TransactionDTO obj = null;
+        obj = db.get(k);
+        return obj;
     }
+
     @Override
     public List<TransactionDTO> select() throws Exception {
-        try {
-            Collection<TransactionDTO> values = db.values();
-            if (values.isEmpty()) {
-                throw new Exception("DB ALL GET ERROR");
-            }
-            return new ArrayList<>(values);
-        } catch (Exception e) {
-            throw new Exception("DB ALL GET ERROR");
+        List<TransactionDTO> list = new ArrayList<TransactionDTO>();
+        Collection<TransactionDTO> col = db.values();
+        for(TransactionDTO obj:col) {
+            list.add(obj);
         }
-
+        return list;
     }
+    // 고객이 보유하고 있는 계좌번호를 입력하면
+    // 해당 계좌의 거래 내역 조회
 
     @Override
-    public void clear() throws Exception {
-        db.clear();
-    }
-
-    //고객이 보유하고 있는 계좌번호 입력하면 해당 계좌의 거래내역을 조회한다.
-    @Override
-    public List<TransactionDTO> search(Objects obj) throws Exception {
+    public List<TransactionDTO> search(Object obj) throws Exception {
+        // TODO Auto-generated method stub
         return null;
     }
+
 }

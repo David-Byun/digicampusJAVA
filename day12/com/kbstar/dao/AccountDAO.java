@@ -1,91 +1,68 @@
 package com.kbstar.dao;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+
 import com.kbstar.dto.AccountDTO;
 import com.kbstar.frame.DAO;
 
-import java.util.*;
-
-public class AccountDAO implements DAO<String, AccountDTO> {
+public class AccountDAO implements DAO<String, AccountDTO>{
 
     HashMap<String, AccountDTO> db;
-
     public AccountDAO() {
-        db = new HashMap<>();
+        db = new HashMap<String, AccountDTO>();
     }
 
     @Override
-    public void insert(AccountDTO accountDTO) throws Exception {
-        try {
-            if (accountDTO.getAccNo() == "3456") {
-                throw new Exception("DB PUT ERROR!");
-            }
-            db.put(accountDTO.getAccNo(), accountDTO);
-        } catch (Exception e) {
-            throw new Exception("DB PUT ERROR!");
-        }
-
+    public void insert(AccountDTO v) throws Exception {
+        db.put(v.getAccNo(), v);
     }
 
     @Override
     public void delete(String k) throws Exception {
-        try {
-            if (k == "bb") {
-                throw new Exception("DB DELETE ERROR!");
-            }
-            db.remove(k);
-        } catch (Exception e) {
-            throw new Exception("DB DELETE ERROR!");
-        }
-
+        db.remove(k);
     }
 
     @Override
-    public void update(AccountDTO accountDTO) throws Exception {
-        try {
-            db.put(accountDTO.getAccNo(), accountDTO);
-        } catch (Exception e) {
-            throw new Exception("DB UPDATE ERROR!");
-        }
-
+    public void update(AccountDTO v) throws Exception {
+        db.put(v.getAccNo(), v);
     }
 
     @Override
     public AccountDTO select(String k) throws Exception {
-        try {
-            if (db.get(k) == null) {
-                throw new Exception("DB GET ERROR!");
-            }
-            return db.get(k);
-        } catch (Exception e) {
-            throw new Exception("DB GET ERROR!");
+        AccountDTO obj = null;
+        obj = db.get(k);
+        if (obj == null) {
+            throw new Exception("존재하지 않는 계좌입니다.");
         }
+        return obj;
+    }
 
+
+    // 사용자의 계좌 조회
+    // obj : 사용자의 id;
+    // Object obj = new String();
+
+    @Override
+    public List<AccountDTO> search(Object obj) throws Exception {
+        List<AccountDTO> list = new ArrayList<AccountDTO>();
+        Collection<AccountDTO> col = db.values();
+        for(AccountDTO acc:col) {
+            // 계좌 중에서 id가 obj와 같은 것들만
+            if((acc.getHolder()).equals(obj)) {
+                list.add(acc);
+            }
+        }
+        return list;
     }
 
     @Override
     public List<AccountDTO> select() throws Exception {
-        try {
-            Collection<AccountDTO> values = db.values();
-            if (values.isEmpty()) {
-                throw new Exception("DB ALL GET ERROR");
-            }
-            return new ArrayList<>(values);
-        } catch (Exception e) {
-            throw new Exception("DB ALL GET ERROR");
-        }
-
-    }
-
-    @Override
-    public void clear() throws Exception {
-        db.clear();
-    }
-
-    //사용자의 계좌 조회
-    //obj : 사용자의 id
-    //Object obj = new String()
-    @Override
-    public List<AccountDTO> search(Objects obj) throws Exception {
+        // TODO Auto-generated method stub
         return null;
     }
+
+
 }

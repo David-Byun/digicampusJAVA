@@ -1,0 +1,7 @@
+
+†
+java:S4165'"dRemove this useless assignment; "holder" already holds the assigned value along all execution paths.(¾ØÌøùÿÿÿÿ8¥ÒÖÏì0
+M
+java:S1172&"0Remove this unused method parameter "accHolder".(µµß8¨ÒÖÏì0
+Q
+java:S1656'"/Remove or correct this useless self-assignment.(¾ØÌøùÿÿÿÿ8ªÒÖÏì0

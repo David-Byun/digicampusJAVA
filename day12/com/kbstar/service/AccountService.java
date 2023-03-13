@@ -1,13 +1,13 @@
 package com.kbstar.service;
 
+import java.util.List;
+
 import com.kbstar.dao.AccountDAO;
 import com.kbstar.dto.AccountDTO;
-import com.kbstar.frame.CRUDService;
 import com.kbstar.frame.DAO;
 import com.kbstar.frame.Notification;
+import com.kbstar.frame.CRUDService;
 import com.kbstar.noti.NotificationImpl;
-
-import java.util.List;
 
 public class AccountService implements CRUDService<String, AccountDTO> {
 
@@ -20,11 +20,11 @@ public class AccountService implements CRUDService<String, AccountDTO> {
     }
 
     @Override
-    public void register(AccountDTO accountDTO) throws Exception {
+    public void register(AccountDTO v) throws Exception {
         try {
-            accDao.insert(accountDTO);
+            accDao.insert(v);
         } catch (Exception e) {
-            throw new Exception("계좌 개설이 실패했어요. 정보를 다시 확인해주세요 (EX0001)");
+            throw new Exception("계좌개설에 실패하였습니다.");
         }
     }
 
@@ -32,45 +32,40 @@ public class AccountService implements CRUDService<String, AccountDTO> {
     public void remove(String k) throws Exception {
         try {
             accDao.delete(k);
-        } catch (Exception e) {
-            throw new Exception("삭제가 실패했어요. 다시 시도해주세요 (EX0002)");
-        }
-
-    }
-
-    @Override
-    public void update(AccountDTO accountDTO) throws Exception {
-        try {
-            accDao.update(accountDTO);
-        } catch (Exception e) {
-            throw new Exception("업데이트가 되지 않았어요. 고객센터 문의해주세요 (EX0003)");
+        } catch (Exception e){
+            throw new Exception("해지 오류입니다.");
         }
     }
 
+    @Override
+    public void modify(AccountDTO v) throws Exception {
+        try {
+            accDao.update(v);
+        } catch (Exception e) {
+            throw new Exception("수정 오류입니다.");
+        }
+    }
 
     @Override
-    public AccountDTO get(String k) throws Exception {
+    public AccountDTO get(String k)  throws Exception {
+        AccountDTO obj = null;
         try {
-            AccountDTO obj = null;
             obj = accDao.select(k);
-            return obj;
         } catch (Exception e) {
-            throw new Exception("계좌 정보를 찾지 못했어요. 고객센터 문의해주세요 (EX0004)");
+            throw new Exception("조회 오류");
         }
-
+        return obj;
     }
 
     @Override
-    public List<AccountDTO> getAll() throws Exception {
+    public List<AccountDTO> get() throws Exception  { // DB에 있는 모든 계좌 조회
+        List<AccountDTO> list = null;
         try {
-            return accDao.select();
+            list = accDao.select();
         } catch (Exception e) {
-            throw new Exception("계좌 전체를 찾지 못했어요. 고객센터 문의해주세요 (EX0005)");
+            throw new Exception("조회 오류");
         }
+        return list;
     }
 
-    @Override
-    public void clear() throws Exception {
-        accDao.clear();
-    }
 }

@@ -1,11 +1,14 @@
 package com.kbstar.dao;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+
 import com.kbstar.dto.UserDTO;
 import com.kbstar.frame.DAO;
 
-import java.util.*;
-
-public class UserDAO implements DAO<String, UserDTO> {
+public class UserDAO implements DAO<String, UserDTO>{
 
     HashMap<String, UserDTO> db;
 
@@ -13,60 +16,51 @@ public class UserDAO implements DAO<String, UserDTO> {
         db = new HashMap<>();
     }
 
-    // 실제 db 존재시 db에서 처리해주기 때문에 if 절등 필요 없음
     @Override
-    public void insert(UserDTO userDTO) throws Exception {
-        db.put(userDTO.getId(), userDTO);
-        if(userDTO.getId().equals("id02")){
+    public void insert(UserDTO v) throws Exception {
+        if(db.containsKey(v.getId())) {
             throw new Exception("DB Error");
         }
-        System.out.println(userDTO.getId() + "님이 저장되었습니다.");
-
+        db.put(v.getId(), v);
     }
 
     @Override
-    public void update(UserDTO userDTO) throws Exception{
-        if(userDTO.getId().equals("id10")){
-            throw new Exception("EX0006");
+    public void delete(String k) throws Exception {
+        if(!db.containsKey(k)) {
+            throw new Exception("");
         }
-        System.out.println(userDTO.getId() + "님이 수정되었습니다.");
+        db.remove(k);
     }
 
     @Override
-    public void delete(String s) throws Exception{
-        if(s.equals("id11")){
-            throw new Exception("EX0005");
+    public void update(UserDTO v) throws Exception {
+        if(!db.containsKey(v.getId())) {
+            throw new Exception(""); // key 값이 없으면 예외 -> 삭제 X
         }
-        System.out.println(s + "님이 삭제 되었습니다.");
+        db.remove(v.getId(),v);
     }
-
 
     @Override
     public UserDTO select(String k) throws Exception {
-        return db.get(k);
+        UserDTO obj = null;
+        obj = db.get(k);
+        return obj;
     }
 
     @Override
     public List<UserDTO> select() throws Exception {
-        ArrayList<UserDTO> list = new ArrayList<>();
+        ArrayList<UserDTO> list = new ArrayList<UserDTO>();
         Collection<UserDTO> col = db.values();
-
-        for(UserDTO obj: col){
+        for(UserDTO obj:col) {
             list.add(obj);
-            System.out.println(obj);
-        };
+        }
         return list;
     }
 
     @Override
-    public void clear() throws Exception {
-        db.clear();
-    }
-
-    @Override
-    public List<UserDTO> search(Objects obj) throws Exception {
+    public List<UserDTO> search(Object obj) throws Exception {
+        // TODO Auto-generated method stub
         return null;
     }
-
 
 }
