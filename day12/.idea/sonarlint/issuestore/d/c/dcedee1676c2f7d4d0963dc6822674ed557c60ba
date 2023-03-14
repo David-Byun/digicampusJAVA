@@ -1,0 +1,12 @@
+
+p
+java:S1192"NDefine a constant instead of duplicating this literal "010-9999-0222" 3 times.(ÆºÓäûÿÿÿÿ8ÍŞ¹Äí0
+h
+java:S1192"FDefine a constant instead of duplicating this literal "james" 3 times.(ÆºÓäûÿÿÿÿ8ÓŞ¹Äí0
+n
+java:S1192"LDefine a constant instead of duplicating this literal "a@naver.com" 3 times.(ÆºÓäûÿÿÿÿ8ÒŞ¹Äí0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8ãŞ¹Äí0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ø¼¢ƒ8äŞ¹Äí0
+X	java:S125""<This block of commented-out lines of code should be removed.(Üã±‹8äŞ¹Äí0
+U	java:S106("9Replace this use of System.out or System.err by a logger.(Âæ“ú8äŞ¹Äí0
+Z	java:S1062"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8åŞ¹Äí0

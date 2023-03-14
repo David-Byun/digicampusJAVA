@@ -1,0 +1,10 @@
+
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ığÂ€8»ê³Äí0
+a	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(æÎe8»ê³Äí0
+b	java:S112&"FDefine and throw a dedicated exception instead of using a generic one.(¡Æè³8»ê³Äí0
+{
+java:S22934"YReplace the type specification in this constructor call with the diamond operator ("<>").(ïÿèäøÿÿÿÿ8»ê³Äí0
+H
+java:S1168?"+Return an empty collection instead of null.(¥¹ï8ÂÖåÄí0
+T
+java:S1135>"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8Ëê³Äí0

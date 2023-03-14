@@ -1,0 +1,8 @@
+
+n
+java:S1192"LDefine a constant instead of duplicating this literal "20230309100" 3 times.(ªâÃ¥ÿÿÿÿÿ8ÁßµÄí0
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ïêÿøÿÿÿÿ8ÂßµÄí0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8ÎßµÄí0
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(á©‚Ùşÿÿÿÿ8ÏßµÄí0
+X	java:S125'"<This block of commented-out lines of code should be removed.(ÄÃ²Ã8ÏßµÄí0
+U	java:S106/"9Replace this use of System.out or System.err by a logger.(Âæ“ú8ÏßµÄí0

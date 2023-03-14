@@ -1,0 +1,10 @@
+
+g	java:S112+"FDefine and throw a dedicated exception instead of using a generic one.(¹·¯®úÿÿÿÿ8Ùí±Äí0
+b	java:S1129"FDefine and throw a dedicated exception instead of using a generic one.(ºÕø8Úí±Äí0
+b	java:S112<"FDefine and throw a dedicated exception instead of using a generic one.(”‘ï®8Üí±Äí0
+r	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸¾”¼şÿÿÿÿ8Şí±Äí0
+~
+java:S1488C"\Immediately return this expression instead of assigning it to the temporary variable "user".(³®­Éüÿÿÿÿ8ßí±Äí0
+U	java:S1067"9Replace this use of System.out or System.err by a logger.(ùàèü8ïí±Äí0
+Z	java:S106_"9Replace this use of System.out or System.err by a logger.(°Ç—¥ùÿÿÿÿ8òí±Äí0
+Z	java:S106p"9Replace this use of System.out or System.err by a logger.(ú­—şÿÿÿÿ8óí±Äí0
