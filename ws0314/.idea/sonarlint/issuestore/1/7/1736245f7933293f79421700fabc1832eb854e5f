@@ -1,0 +1,63 @@
+
+k
+java:S1104"UMake deleteSql a static final constant or non-public and provide accessors if needed.(Ç‰ÿË
+p
+java:S1104"UMake insertSql a static final constant or non-public and provide accessors if needed.(Ÿ®»¸ıÿÿÿÿ
+s
+java:S1104"XMake selectAllSql a static final constant or non-public and provide accessors if needed.(áÀİèıÿÿÿÿ
+k
+java:S1104"UMake selectSql a static final constant or non-public and provide accessors if needed.(ûÅ™
+k
+java:S1104	"UMake updateSql a static final constant or non-public and provide accessors if needed.(ˆèº
+o
+java:S1104"YMake itemDeleteSql a static final constant or non-public and provide accessors if needed.(‡Â¾ª
+t
+java:S1104"YMake itemInsertSql a static final constant or non-public and provide accessors if needed.(·îšúÿÿÿÿ
+o
+java:S1104"YMake itemUpdateSql a static final constant or non-public and provide accessors if needed.(À˜Ô
+t
+java:S1104"YMake itemSelectSql a static final constant or non-public and provide accessors if needed.(…ë¡¢øÿÿÿÿ
+w
+java:S1104"\Make itemSelectAllSql a static final constant or non-public and provide accessors if needed.(Ù°—¨şÿÿÿÿ
+z
+java:S1104"XMake cartdeletSql a static final constant or non-public and provide accessors if needed.(¤Œçïûÿÿÿÿ8ˆÆöí0
+u
+java:S1104"YMake cartinsertSql a static final constant or non-public and provide accessors if needed.(ÅËà8ˆÆöí0
+{
+java:S1104"YMake cartupdateSql a static final constant or non-public and provide accessors if needed.(ü³íüÿÿÿÿ8ˆÆöí0
+v
+java:S1104"YMake cartselectSql a static final constant or non-public and provide accessors if needed.(Ÿš†8×ÅÁùí0
+y
+java:S1104"\Make cartSelectAllSql a static final constant or non-public and provide accessors if needed.(ƒù…ˆ8ˆÆöí0
+E
+java:S1444"/Make this "public static deleteSql" field final(Ç‰ÿË
+J
+java:S1444"/Make this "public static insertSql" field final(Ÿ®»¸ıÿÿÿÿ
+M
+java:S1444"2Make this "public static selectAllSql" field final(áÀİèıÿÿÿÿ
+E
+java:S1444"/Make this "public static selectSql" field final(ûÅ™
+E
+java:S1444	"/Make this "public static updateSql" field final(ˆèº
+I
+java:S1444"3Make this "public static itemDeleteSql" field final(‡Â¾ª
+N
+java:S1444"3Make this "public static itemInsertSql" field final(·îšúÿÿÿÿ
+I
+java:S1444"3Make this "public static itemUpdateSql" field final(À˜Ô
+N
+java:S1444"3Make this "public static itemSelectSql" field final(…ë¡¢øÿÿÿÿ
+Q
+java:S1444"6Make this "public static itemSelectAllSql" field final(Ù°—¨şÿÿÿÿ
+T
+java:S1444"2Make this "public static cartdeletSql" field final(¤Œçïûÿÿÿÿ8‰Æöí0
+O
+java:S1444"3Make this "public static cartinsertSql" field final(ÅËà8‰Æöí0
+U
+java:S1444"3Make this "public static cartupdateSql" field final(ü³íüÿÿÿÿ8‰Æöí0
+P
+java:S1444"3Make this "public static cartselectSql" field final(Ÿš†8ØÅÁùí0
+S
+java:S1444"6Make this "public static cartSelectAllSql" field final(ƒù…ˆ8‰Æöí0
+P
+java:S1118":Add a private constructor to hide the implicit public one.(öûí´

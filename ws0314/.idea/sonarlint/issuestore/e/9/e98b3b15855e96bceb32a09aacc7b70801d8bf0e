@@ -1,0 +1,7 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ΪΘ΄8±ΟΏων0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(©ώκάϊÿÿÿÿ8³ΟΏων0
+R
+java:S1128"0Remove this unused import 'com.kbstar.dto.Item'.(ώ©ΕΕωÿÿÿÿ8µΟΏων0
+e
+java:S1128"CRemove this unused import 'com.kbstar.service.ItemCRUDServiceImpl'.(¬κύΖÿÿÿÿÿ8¶ΟΏων0

@@ -1,0 +1,32 @@
+
+[	java:S1120"FDefine and throw a dedicated exception instead of using a generic one.(“ÁÛ‰
+`	java:S112A"FDefine and throw a dedicated exception instead of using a generic one.(ııüıÿÿÿÿ
+`	java:S112p"FDefine and throw a dedicated exception instead of using a generic one.(âÔ¢¤üÿÿÿÿ
+`	java:S112t"FDefine and throw a dedicated exception instead of using a generic one.(£ÉıÕúÿÿÿÿ
+P
+java:S1141N"5Extract this nested try block into a separate method.(ë¤¬ÿÿÿÿÿ
+k	java:S117h"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“íçşşÿÿÿÿ
+e	java:S117i"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é›‡Y
+f	java:S117j"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ç´…
+k	java:S117k"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßîª¥ıÿÿÿÿ
+f	java:S117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â¦îŸ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ö‚’Óûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¦ ±¡ùÿÿÿÿ
+m
+java:S2737%"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û
+r
+java:S27373"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ç˜µÎûÿÿÿÿ
+r
+java:S2737D"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ç˜µÎûÿÿÿÿ
+r
+java:S2737\"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ØÊ‹óùÿÿÿÿ
+m
+java:S2737X"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û
+Q	java:S125V"<This block of commented-out lines of code should be removed.(‹Åª½
+Q	java:S125Y"<This block of commented-out lines of code should be removed.(†€éˆ
+[
+java:S1155o">Use isEmpty() to check whether the collection is empty or not.(Ÿãı­8Œƒ‹÷í0
+H
+java:S1168|"+Return an empty collection instead of null.(¥¹ï8ƒ‹÷í0
+M
+java:S1135{"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ

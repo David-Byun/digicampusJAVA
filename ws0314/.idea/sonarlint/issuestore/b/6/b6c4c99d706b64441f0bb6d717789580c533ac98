@@ -1,0 +1,21 @@
+
+g	java:S112S"FDefine and throw a dedicated exception instead of using a generic one.(£ב˜רÿÿÿÿ8²„תם0
+b	java:S112j"FDefine and throw a dedicated exception instead of using a generic one.(×ָˆט8´„תם0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ָû‎8ֲ„תם0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ב¨נֿרÿÿÿÿ8ֳ„תם0
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(®‎בכûÿÿÿÿ8ָ„תם0
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(˜ֹ„üÿÿÿÿ8ֹ„תם0
+t
+java:S27373"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(צ™û8ֻ„תם0
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(®‎בכûÿÿÿÿ8ּ„תם0
+t
+java:S2737A"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(צ™û8ֽ„תם0
+Z	java:S106?"9Replace this use of System.out or System.err by a logger.(®‎בכûÿÿÿÿ8־„תם0
+t
+java:S2737X"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(צ™û8ֿ„תם0
+t
+java:S2737n"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(צ™û8ׁ„תם0
+`
+java:S1155i">Use isEmpty() to check whether the collection is empty or not.(‘™ׁƒ‏ÿÿÿÿ8׃„תם0
+H
+java:S1168u"+Return an empty collection instead of null.(¥¹ן8װ„תם0

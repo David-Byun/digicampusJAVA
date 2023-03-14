@@ -1,10 +1,8 @@
 package com.kbstar.test.cart;
 
 import com.kbstar.dto.Cart;
-import com.kbstar.dto.Item;
 import com.kbstar.service.CRUDService;
 import com.kbstar.service.CartCRUDServiceImpl;
-import com.kbstar.service.ItemCRUDServiceImpl;
 
 import java.util.List;
 
