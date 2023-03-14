@@ -80,6 +80,13 @@ public class CustCRUDServiceImpl implements CRUDService<String, Cust>{
         List<Cust> custList;
         try {
             custList = dao.selectAll();
+            if (custList.size() == 0) {
+                System.out.println("데이터가 없습니다");
+            } else {
+                for (Cust obj : custList) {
+                    System.out.println(obj);
+                }
+            }
         } catch (Exception e) {
             throw new Exception("전체 리스트를 찾을 수 없어요!");
         }
