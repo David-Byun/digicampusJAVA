@@ -11,8 +11,8 @@ public class CartSelectTest {
         CRUDService<String, Cart> service = new CartCRUDServiceImpl();
 
         try {
-            Cart item = service.get("2023314293100");
-            System.out.println(item.toString());
+            Cart cart = service.get("2023314319100");
+            System.out.println(cart.toString());
         } catch (Exception e) {
             e.printStackTrace();
         }
