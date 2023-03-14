@@ -1,0 +1,18 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(“óÁ¥ùÿÿÿÿ8¤¼üôí0
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(òøº8¦¼üôí0
+b	java:S112)"FDefine and throw a dedicated exception instead of using a generic one.(ÃÄ“’8§¼üôí0
+b	java:S112+"FDefine and throw a dedicated exception instead of using a generic one.(Êï€§8©¼üôí0
+b	java:S1126"FDefine and throw a dedicated exception instead of using a generic one.(ÃÄ“’8ª¼üôí0
+b	java:S1128"FDefine and throw a dedicated exception instead of using a generic one.(®ÃÃ¤8«¼üôí0
+b	java:S112D"FDefine and throw a dedicated exception instead of using a generic one.(òøº8­¼üôí0
+g	java:S112F"FDefine and throw a dedicated exception instead of using a generic one.(–ş°ƒûÿÿÿÿ8®¼üôí0
+b
+java:S1193"@Replace the usage of the "instanceof" operator by a catch block.(ñ›»‹üÿÿÿÿ8·¼üôí0
+]
+java:S1193("@Replace the usage of the "instanceof" operator by a catch block.(àª¾è8¹¼üôí0
+]
+java:S11935"@Replace the usage of the "instanceof" operator by a catch block.(àª¾è8º¼üôí0
+]
+java:S1193C"@Replace the usage of the "instanceof" operator by a catch block.(àª¾è8º¼üôí0
+Z	java:S106T"9Replace this use of System.out or System.err by a logger.(õç®›ùÿÿÿÿ8»¼üôí0

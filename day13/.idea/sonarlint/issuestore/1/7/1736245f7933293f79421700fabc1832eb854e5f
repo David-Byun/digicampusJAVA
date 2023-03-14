@@ -1,0 +1,43 @@
+
+r
+java:S1104"UMake deleteSql a static final constant or non-public and provide accessors if needed.(Ç‰ÿË8¢šşÌí0
+w
+java:S1104"UMake insertSql a static final constant or non-public and provide accessors if needed.(Ÿ®»¸ıÿÿÿÿ8¤šşÌí0
+z
+java:S1104"XMake selectAllSql a static final constant or non-public and provide accessors if needed.(áÀİèıÿÿÿÿ8¥šşÌí0
+r
+java:S1104"UMake selectSql a static final constant or non-public and provide accessors if needed.(ûÅ™8İ€ÿÌí0
+r
+java:S1104	"UMake updateSql a static final constant or non-public and provide accessors if needed.(ˆèº8ÂÜÿÌí0
+v
+java:S1104"YMake itemDeleteSql a static final constant or non-public and provide accessors if needed.(‡Â¾ª8©Ø°ïí0
+{
+java:S1104"YMake itemInsertSql a static final constant or non-public and provide accessors if needed.(·îšúÿÿÿÿ8Û³±ïí0
+v
+java:S1104"YMake itemUpdateSql a static final constant or non-public and provide accessors if needed.(À˜Ô8ïç±ïí0
+{
+java:S1104"YMake itemSelectSql a static final constant or non-public and provide accessors if needed.(…ë¡¢øÿÿÿÿ8µ²²ïí0
+~
+java:S1104"\Make itemSelectAllSql a static final constant or non-public and provide accessors if needed.(Ù°—¨şÿÿÿÿ8ÈÛ²ïí0
+L
+java:S1444"/Make this "public static deleteSql" field final(Ç‰ÿË8¦šşÌí0
+Q
+java:S1444"/Make this "public static insertSql" field final(Ÿ®»¸ıÿÿÿÿ8§šşÌí0
+T
+java:S1444"2Make this "public static selectAllSql" field final(áÀİèıÿÿÿÿ8¨šşÌí0
+L
+java:S1444"/Make this "public static selectSql" field final(ûÅ™8â€ÿÌí0
+L
+java:S1444	"/Make this "public static updateSql" field final(ˆèº8ÈÜÿÌí0
+P
+java:S1444"3Make this "public static itemDeleteSql" field final(‡Â¾ª8±Ø°ïí0
+U
+java:S1444"3Make this "public static itemInsertSql" field final(·îšúÿÿÿÿ8ç³±ïí0
+P
+java:S1444"3Make this "public static itemUpdateSql" field final(À˜Ô8óç±ïí0
+U
+java:S1444"3Make this "public static itemSelectSql" field final(…ë¡¢øÿÿÿÿ8À²²ïí0
+X
+java:S1444"6Make this "public static itemSelectAllSql" field final(Ù°—¨şÿÿÿÿ8ÏÛ²ïí0
+W
+java:S1118":Add a private constructor to hide the implicit public one.(öûí´8«šşÌí0

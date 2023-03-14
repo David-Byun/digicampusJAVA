@@ -1,0 +1,32 @@
+
+b	java:S1120"FDefine and throw a dedicated exception instead of using a generic one.(“ÁÛ‰8ïåòôí0
+g	java:S112A"FDefine and throw a dedicated exception instead of using a generic one.(ııüıÿÿÿÿ8ñåòôí0
+g	java:S112q"FDefine and throw a dedicated exception instead of using a generic one.(âÔ¢¤üÿÿÿÿ8òåòôí0
+g	java:S112u"FDefine and throw a dedicated exception instead of using a generic one.(£ÉıÕúÿÿÿÿ8óåòôí0
+W
+java:S1141N"5Extract this nested try block into a separate method.(ë¤¬ÿÿÿÿÿ8öåòôí0
+r	java:S117i"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“íçşşÿÿÿÿ8øåòôí0
+l	java:S117j"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é›‡Y8ùåòôí0
+m	java:S117k"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ç´…8úåòôí0
+r	java:S117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßîª¥ıÿÿÿÿ8ûåòôí0
+m	java:S117m"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â¦îŸ8ûåòôí0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ö‚’Óûÿÿÿÿ8æòôí0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¦ ±¡ùÿÿÿÿ8æòôí0
+t
+java:S2737%"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û8’æòôí0
+y
+java:S27373"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ç˜µÎûÿÿÿÿ8”æòôí0
+y
+java:S2737D"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ç˜µÎûÿÿÿÿ8–æòôí0
+y
+java:S2737]"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ØÊ‹óùÿÿÿÿ8˜æòôí0
+t
+java:S2737Y"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û8˜æòôí0
+X	java:S125W"<This block of commented-out lines of code should be removed.(‹Åª½8™æòôí0
+X	java:S125Z"<This block of commented-out lines of code should be removed.(†€éˆ8™æòôí0
+[
+java:S1155p">Use isEmpty() to check whether the collection is empty or not.(Ÿãı­8æòôí0
+H
+java:S1168}"+Return an empty collection instead of null.(¥¹ï8æòôí0
+T
+java:S1135|"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8æòôí0

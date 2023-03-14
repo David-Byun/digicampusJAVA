@@ -1,0 +1,30 @@
+
+b	java:S1125"FDefine and throw a dedicated exception instead of using a generic one.(áÑ8”ÜĞí0
+g	java:S112F"FDefine and throw a dedicated exception instead of using a generic one.(«œ†şÿÿÿÿ8”ÜĞí0
+g	java:S112]"FDefine and throw a dedicated exception instead of using a generic one.(Ï°©ıúÿÿÿÿ8”ÜĞí0
+W
+java:S1141U"5Extract this nested try block into a separate method.(ë¤¬ÿÿÿÿÿ8 Ğíí0
+m	java:S117Q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Ñÿ¶8”ÜĞí0
+m	java:S117R"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Šş¸á8”ÜĞí0
+r	java:S117n"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“íçşşÿÿÿÿ8”ÜĞí0
+m	java:S117o"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óª›¸8”ÜĞí0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ö‚’Óûÿÿÿÿ8 ”ÜĞí0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(á¨ğÏøÿÿÿÿ8¢”ÜĞí0
+t
+java:S2737)"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û8¨”ÜĞí0
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8ª”ÜĞí0
+X	java:S125*"<This block of commented-out lines of code should be removed.(†€éˆ8¬”ÜĞí0
+t
+java:S27378"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û8®”ÜĞí0
+Z	java:S1063"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8¯”ÜĞí0
+t
+java:S2737I"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û8±”ÜĞí0
+Z	java:S106D"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8´”ÜĞí0
+t
+java:S2737d"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û8µ”ÜĞí0
+t
+java:S2737a"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û8·”ÜĞí0
+t
+java:S2737v"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û8ÙĞíí0
+H
+java:S1168}"+Return an empty collection instead of null.(¥¹ï8¸”ÜĞí0

@@ -56,7 +56,6 @@ public class ItemCRUDServiceImpl implements CRUDService<String, Item> {
                 throw new Exception("해당 ID가 존재하지 않습니다.");
             }
         }
-
     }
 
     @Override

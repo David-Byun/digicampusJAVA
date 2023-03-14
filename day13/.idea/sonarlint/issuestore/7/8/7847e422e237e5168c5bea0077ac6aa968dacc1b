@@ -1,0 +1,20 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(“óÁ¥ùÿÿÿÿ8ĞáĞí0
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(üçÕú8ĞáĞí0
+b	java:S112-"FDefine and throw a dedicated exception instead of using a generic one.(ÃÄ“’8‘ĞáĞí0
+b	java:S112/"FDefine and throw a dedicated exception instead of using a generic one.(ÁÁÒ»8“ĞáĞí0
+b	java:S112>"FDefine and throw a dedicated exception instead of using a generic one.(®ÃÃ¤8”ĞáĞí0
+g	java:S112I"FDefine and throw a dedicated exception instead of using a generic one.(¥£éÉùÿÿÿÿ8•ĞáĞí0
+b	java:S112["FDefine and throw a dedicated exception instead of using a generic one.(â±öÀ8£åıĞí0
+b
+java:S1193"@Replace the usage of the "instanceof" operator by a catch block.(ñ›»‹üÿÿÿÿ8ĞáĞí0
+]
+java:S1193,"@Replace the usage of the "instanceof" operator by a catch block.(àª¾è8 ĞáĞí0
+]
+java:S1193;"@Replace the usage of the "instanceof" operator by a catch block.(àª¾è8¡ĞáĞí0
+X
+java:S3984<"6Throw this exception or remove this useless statement.(Ï™‚‘úÿÿÿÿ8£ĞáĞí0
+`
+java:S1155S">Use isEmpty() to check whether the collection is empty or not.(Õ‚£Êûÿÿÿÿ8ü’ìíí0
+Z	java:S106T"9Replace this use of System.out or System.err by a logger.(Ï»Ó²øÿÿÿÿ8ü’ìíí0
+U	java:S106W"9Replace this use of System.out or System.err by a logger.(Áªø8÷¥ïíí0
