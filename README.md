@@ -73,7 +73,17 @@ __single__
 
 <br><br>
 
-
+<pre>
+<code>
+create table cart (
+    id varchar(20) primary key,
+    user_id varchar(20),
+    item_id varchar(20),
+    cnt int,
+    regdate DATE
+)
+</code>
+</pre>
 # Reference
 
 - 이 프로젝트는 """링크를 넣어주세요"""" 사이트를 참조하여 학습목적으로 만들었습니다.
