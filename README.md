@@ -25,7 +25,7 @@
 
 ## flow
 
-<img width="924" alt="스크린샷 2022-03-27 오전 12 41 14" src="https://user-images.githubusercontent.com/60570733/160246837-e87b4a41-f758-4d53-a715-345eb299babd.png">
+<img width="924" alt="스크린샷 2022-03-27 오전 12 41 14" src="https://github.com/David-Byun/digicampusJAVA/blob/assignment/IMG_0204.jpg">
 이미지 또는 Flow 를 넣어주세요
 
 ## 구현 목표
