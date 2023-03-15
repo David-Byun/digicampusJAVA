@@ -65,6 +65,12 @@
 2. ## second
   1. first
   
+  
+*single asteriks*
+_single asteriks_
+**single asteriks**
+__single__
+
 <br><br>
 
 
