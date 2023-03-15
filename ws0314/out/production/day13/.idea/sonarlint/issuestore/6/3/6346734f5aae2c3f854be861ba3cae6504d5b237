@@ -1,0 +1,13 @@
+
+W
+java:S1141"5Extract this nested try block into a separate method.(ë¤¬ÿÿÿÿÿ8øö”Ëí0
+r	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“íçşşÿÿÿÿ8¶á¥Ëí0
+m	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óª›¸8¶á¥Ëí0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ö‚’Óûÿÿÿÿ8€÷”Ëí0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(á¨ğÏøÿÿÿÿ8‚÷”Ëí0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ã¤Ù¸8ƒ÷”Ëí0
+S
+java:S6437"6Revoke and change this password, as it is compromised.(µßŠ­8†÷”Ëí0
+H
+java:S1481!"+Remove this unused "db_pwd" local variable.(óª›¸8¿á¥Ëí0
+U	java:S106$"9Replace this use of System.out or System.err by a logger.(ÛŸË¥8«à–Ëí0
