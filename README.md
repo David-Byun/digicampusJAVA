@@ -19,7 +19,7 @@
 
 ## ERD
 
-<img width="1400" alt="스크린샷 2022-03-25 오후 5 02 20" src="https://user-images.githubusercontent.com/46917538/68458221-9429fc80-0245-11ea-9cc3-92f7a35fd534.png"></a>
+<img width="1400" alt="스크린샷 2022-03-25 오후 5 02 20" src="[https://user-images.githubusercontent.com/46917538/68458221-9429fc80-0245-11ea-9cc3-92f7a35fd534.png](https://github.com/David-Byun/digicampusJAVA/blob/assignment/IMG_0204.jpg)"></a>
 
 <br><br>
 
